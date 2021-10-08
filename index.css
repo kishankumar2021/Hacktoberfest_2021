@@ -6,7 +6,7 @@
 }
 .form{
     display: grid;
-    border: 1px solid red;
+    border: px solid red;
     /* grid-template-rows: 10%; */
     margin-left: 25%;
     width: 110px;
@@ -16,4 +16,8 @@
 }
 button{
     margin-left: 25%;
+}
+button:hover{
+    background-color: teal;
+    color: white;
 }
